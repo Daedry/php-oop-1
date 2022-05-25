@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* 
 create un file index.php in cui:
 è definita una classe ‘Movie’
@@ -8,3 +8,27 @@ create un file index.php in cui:
  vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo 
  i valori delle relative proprietà
 */
+
+class Movie
+{
+
+    public $title;
+    public $genre;
+    public $language;
+    public $year;
+    public $image;
+
+    function __construct(String $title, String $genre, String $language, String $year, String $image)
+    {
+        $this->title = $title;
+        $this->genre = $genre;
+        $this->language = $language;
+        $this->year = $year;
+        $this->image = $image;
+    }
+}
+
+
+
+
+
