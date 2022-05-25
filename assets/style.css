@@ -93,7 +93,7 @@ nav > h1 {
 .card {
   width: 260px;
   height: 480px;
-  margin: 2rem 1.33rem;
+  margin: 1.5rem 1.33rem;
   /* border: 5px solid blue; */
   background-color: #396086;
   border-radius: 0.22rem;
@@ -102,7 +102,7 @@ nav > h1 {
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.022);
   cursor: pointer;
   box-shadow: 2px 8px 15px 4px #1e2d3b;
 }
