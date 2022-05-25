@@ -28,6 +28,16 @@ class Movie
         $this->year = $year;
         $this->image = $image;
     }
+
+    function setName(String $title)
+    {
+        $this->title = $title;
+    }
+
+    function getName()
+    {
+        return $this->title;
+    }
 }
 
 $movies = [
@@ -41,9 +51,13 @@ $movies = [
     new Movie('La profezia di celestino', 'The Celestine Prophecy', 'Avventura , Drammatico , Avventura', 'US',  '2006', 'https://pad.mymovies.it/filmclub/2001/09/028/locandina.jpg'),
 ];
 
-// for ($i = 0; $i < count($movies); $i++) {
-//     var_dump($movies[$i]->title);
-// };
+// var_dump($movies[0]->setName('Gandahar'));
+// var_dump($movies[0]->getName());
+
+for ($i = 0; $i < count($movies); $i++) {
+    var_dump($movies[$i]->setName($movies[$i]->title));
+    var_dump($movies[$i]->getName());
+};
 
 ?>
 <!DOCTYPE html>

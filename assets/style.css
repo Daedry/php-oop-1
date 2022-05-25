@@ -102,7 +102,7 @@ nav > h1 {
 }
 
 .card:hover {
-  transform: scale(1.022);
+  transform: scale(1.033);
   cursor: pointer;
   box-shadow: 2px 8px 15px 4px #1e2d3b;
 }
