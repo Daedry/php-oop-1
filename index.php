@@ -9,24 +9,8 @@ create un file index.php in cui:
  i valori delle relative proprietà
 */
 
-require __DIR__ . '/partials/db.php';
+require __DIR__ . '/Models/db.php';
 
-include __DIR__ . '/partials/head.php';
+require __DIR__ . '/views/home-view.php';
 
-include __DIR__ . '/layout/header.php';
-?>
 
-<main>
-    <div class="container">
-        <div class="cards d-flex wrap m-auto">
-            <?php include __DIR__ . '/layout/card.php'; ?>
-        </div>
-        <!-- /.cards -->
-    </div>
-    <!-- /.container -->
-</main>
-<!-- /.main -->
-
-<?php
-
-include __DIR__ . '/layout/footer.php';
